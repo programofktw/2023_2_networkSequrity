@@ -1,3 +1,6 @@
+#https
+server :
+  port : 8082
 # PostgreSQL
 spring:
   datasource:
