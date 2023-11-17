@@ -5,8 +5,11 @@ server :
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
+    #jdbc:postgresql://localhost:5432/postgres?currentSchema="public"
+    #으로 수정
     url: jdbc:postgresql://localhost:5432/test?currentSchema="public"
     username: postgres
+    #본인이 설정한 password로 수정
     password: 7069
 
   # JPA

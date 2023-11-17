@@ -24,6 +24,10 @@ public class PhishingConroller {
     public String phishingPage(){
         return "phishing";
     }
+    @GetMapping("/")
+    public String defaultPhishingPage(){
+        return "phishing";
+    }
 
     @PostMapping("/phishingUserInfo")
     public String phishingTry(@RequestParam("id") String id,
